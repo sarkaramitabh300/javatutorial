@@ -27,7 +27,7 @@ public class Main {
 
 
 
-
+public static void mac(String [] args)
 
     }
 }
