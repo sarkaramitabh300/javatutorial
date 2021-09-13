@@ -52,10 +52,13 @@ public class Main {
             abc[i] = temp;
         }
 
+
         for (int i = 0; i < abc.length; i++) {
             Duck tempDuck = abc[i];
             System.out.println(tempDuck.getAge());
         }
+
+
 
 
     }
