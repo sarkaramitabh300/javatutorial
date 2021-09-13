@@ -1,6 +1,6 @@
 public class Functions {
     public static void main(String[] args) {
-
+int i=0;
 //        int first = 10;
 //        int second = 30;
 //        int result = add(first, second);
@@ -14,10 +14,10 @@ public class Functions {
 //        System.out.println(multAsn);
 //        int arr[] = {500, 33, 69, 100, 400};
 //        printArray(arr);
-        switchExample(0);
-    }
+    //    switchExample(0);
+    //}
 
-    private static void switchExample(int i) {
+  //  private static void switchExample(int i) {
 
         switch (i) {
             case 0:
