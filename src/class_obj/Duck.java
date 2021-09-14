@@ -19,9 +19,10 @@ public class Duck {
 
     public void setDuckAge(int age, String name) {
 
-        if (name == "priya") {
+        if (name.equalsIgnoreCase("priya")||name.equalsIgnoreCase("amitabh")) {
             duckAge = age;
-        } else {
+        }else
+        {
             System.out.println("Unauthorized access failed");
         }
     }
