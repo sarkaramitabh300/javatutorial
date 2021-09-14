@@ -1,6 +1,6 @@
 package class_obj;
 
-import static class_obj.rabbit.*;
+
 
 public class Main {
 
@@ -23,15 +23,16 @@ public class Main {
 //        yourDuck.setDuckAge(6,"Priya");
 //        int myDuckAge = yourDuck.getAge();
 //        System.out.println(myDuckAge);
-       //
-
-        rabbit myrab = new rabbit();
-       // rabbit.jump(20);
-
-
-
-
-
+        Snail SmallSnail=new Snail();
+        SmallSnail.waited(20);
+    SmallSnail.moved(30);
+        Snail BigSnail=new Snail();
+        BigSnail.waited(30);
+        System.out.println(BigSnail.PasswordToOpen);
+        System.out.println(SmallSnail.PassworrdToOpen);
+        BigSnail.setPasswordToOpen(wed4,"priya");
+        int SmallSnail=BigSnail.getPasswordToOpen();
+        System.out.println(SmallSnail);
 
     }
 }

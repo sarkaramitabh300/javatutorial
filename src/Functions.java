@@ -22,7 +22,7 @@ int i=0;
         switch (i) {
             case 0:
                 System.out.println("first case executed");
-                break;
+        break;
             case 1:
                 System.out.println("Second case executed");
                 break;
