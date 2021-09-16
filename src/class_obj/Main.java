@@ -38,8 +38,8 @@ public class Main {
         System.out.println(BigSnail.PasswordToOpen);
         System.out.println(SmallSnail.PasswordToOpen);
         BigSnail.setPasswordToOpen(432,"priya");
-        int SmallSnail=BigSnail.getPasswordToOpen();
-        System.out.println(SmallSnail);
+//        int SmallSnail=BigSnail.getPasswordToOpen();
+//        System.out.println(SmallSnail);
 
 
 //        Duck d1 = new Duck();
