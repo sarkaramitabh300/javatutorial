@@ -28,7 +28,23 @@ public class Main {
 
 //        yourDuck.setDuckAge(6,"Priya");
 //        int myDuckAge = yourDuck.getAge();
+
 //
+//=======
+//        System.out.println(myDuckAge);
+
+        Snail SmallSnail=new Snail();
+        SmallSnail.waited(20);
+    SmallSnail.moved(30);
+        Snail BigSnail=new Snail();
+        BigSnail.waited(30);
+        System.out.println(BigSnail.PasswordToOpen);
+        System.out.println(SmallSnail.PasswordToOpen);
+        BigSnail.setPasswordToOpen(432,"priya");
+//        int SmallSnail=BigSnail.getPasswordToOpen();
+//        System.out.println(SmallSnail);
+
+//>>>>>>> 21f2cb84ddca8f101fddb1cf0d3e9bfb14419bfe
 
 //        Duck d1 = new Duck();
 //        Duck d2 = new Duck();
