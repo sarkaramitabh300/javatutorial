@@ -45,8 +45,8 @@ public class Employees {
         this.phNo=phNo;
     }
     private void setSalary(int salary){
-        this.salary=salary;
-    }
+        this.salary=salary;}
+
 private void setId(String id ){
         this.id=id;
 }
